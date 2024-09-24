@@ -102,7 +102,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  min-height: 100vh;
+  min-height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -129,6 +129,9 @@ a:focus {
 
 .sub_page .hero_area {
   min-height: auto;
+}
+.hero_area .carousel-indicators {
+  z-index: 18;
 }
 
 .sub_page .hero_area .bg-box {
@@ -487,6 +490,10 @@ a:focus {
   fill: #ffffff;
 }
 
+.filters-content .grid {
+  row-gap: 24px;
+}
+
 .offer_section .box:hover .img-box img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
@@ -526,6 +533,7 @@ a:focus {
   border-radius: 15px;
   overflow: hidden;
   background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  height: 100%;
 }
 
 .food_section .box .img-box {
