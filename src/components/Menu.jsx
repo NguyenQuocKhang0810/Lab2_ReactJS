@@ -105,8 +105,9 @@ const Menu = () => {
                     <div className="detail-box">
                       <h5>Spicy Pepperoni Pizza</h5>
                       <p>
-                        Loaded with spicy pepperoni slices and gooey cheese,
-                        this pizza packs a punch of flavor and heat.
+                        A classic delight featuring fresh mozzarella, fragrant
+                        basil, and savory tomato sauce, offering a true Italian
+                        experience in every mouthful.
                       </p>
                       <div className="options">
                         <h6>$15</h6>
@@ -254,8 +255,9 @@ const Menu = () => {
                     <div className="detail-box">
                       <h5>BBQ Chicken Pizza</h5>
                       <p>
-                        Savory BBQ sauce with tender chicken, red onions, and
-                        cilantro, delivering a sweet and tangy flavor sensation.
+                        A beloved dish with creamy mozzarella, vibrant basil,
+                        and a robust tomato sauce, bringing the flavors of Italy
+                        to life with each bite.
                       </p>
                       <div className="options">
                         <h6>$18</h6>
