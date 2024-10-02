@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const MyCarousel = () => {
   return (
     <Carousel>
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <div className="overlay"></div>
         <img className="d-block w-100" src="/pizza1.jpg" alt="First slide" />
         <Carousel.Caption>
@@ -17,7 +17,7 @@ const MyCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <div className="overlay"></div>
         <img className="d-block w-100" src="/pizza2.jpg" alt="Second slide" />
         <Carousel.Caption>
@@ -29,7 +29,7 @@ const MyCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <div className="overlay"></div>
         <img className="d-block w-100" src="/pizza3.jpg" alt="Third slide" />
         <Carousel.Caption>
@@ -41,7 +41,7 @@ const MyCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <div className="overlay"></div>
         <img className="d-block w-100" src="/pizza4.jpg" alt="Third slide" />
         <Carousel.Caption>
@@ -53,7 +53,7 @@ const MyCarousel = () => {
         </Carousel.Caption>
       </Carousel.Item>
 
-      <Carousel.Item>
+      <Carousel.Item interval={1000}>
         <div className="overlay"></div>
         <img className="d-block w-100" src="/pizza5.jpg" alt="Third slide" />
         <Carousel.Caption>
